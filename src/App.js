@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Nav />
       <Routes>
-        <Route path="" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="post" element={<NewPost />} />
         <Route path="post/:id" element={<PostPage />} />
         <Route path="about" element={<About />} />
