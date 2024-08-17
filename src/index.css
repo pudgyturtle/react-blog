@@ -66,7 +66,7 @@ body {
   background-color: #333;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
@@ -95,7 +95,7 @@ body {
   list-style-type: none;
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
+  align-items: right;
 }
 
 .Nav li {
@@ -232,7 +232,7 @@ body {
   .Nav {
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-life;
     align-items: center;
   }
 
